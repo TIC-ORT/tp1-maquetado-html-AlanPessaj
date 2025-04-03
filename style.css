@@ -119,26 +119,32 @@
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    height: 80%;
-    top: 10%;
+    height: 70%;
+    top: 15%;
     left: 10%;
     position: absolute;
 }
 
 .bottom-text
 {
-    width: 25%;
+    width: 20%;
     height: 100%;
+    .shorter{width: 50%; margin-left: 25%;}
 }
 
 .gray-text
 {
-    
+    background-color: #cccbca;
+    width: 100%;
+    height: 20%;
 }
 
-
-
-
-
+.white-text
+{
+    background-color: white;
+    width: 100%;
+    height: 6%;
+    margin-top: 9%;
+}
 
 body,main{height: 100vh;}
